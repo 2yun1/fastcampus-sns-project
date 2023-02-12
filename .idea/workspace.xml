@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9c029d16-b2ea-46af-9bdf-1baf4e3517ad" name="Changes" comment="회원가입과 로그인 기능">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/snsproject/configuration/AuthenticationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/snsproject/configuration/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/snsproject/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/snsproject/controller/request/PostCreateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/snsproject/controller/request/UserJoinRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/snsproject/controller/request/UserLoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/snsproject/controller/response/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/snsproject/controller/response/UserJoinResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/snsproject/controller/response/UserLoginResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/snsproject/exception/ErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/snsproject/exception/GlobalControllerAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/snsproject/exception/SnsApplicationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/snsproject/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/snsproject/model/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/snsproject/model/entity/PostEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/snsproject/model/entity/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/snsproject/repository/PostEntityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/snsproject/repository/UserEntityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/snsproject/service/PostService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/snsproject/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/snsproject/util/JwtTokenUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fastcampus/snsproject/controller/PostControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fastcampus/snsproject/controller/UserControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fastcampus/snsproject/fixture/UserEntityFixture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fastcampus/snsproject/service/PostServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fastcampus/snsproject/service/UserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fastcampus/snsproject/FastcampusSnsProjectApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/snsproject/FastcampusSnsProjectApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Ld3D5YtCbaWMFSvdH7OWNoFKYF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/mac/IdeaProjects/fastcampus-sns-project",
+    "settings.editor.selected.configurable": "vcs.Git"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.Tests in 'sns-project'">
+    <configuration name="Tests in 'sns-project'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="All in sns-project" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sns-project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Tests in 'sns-project'" />
+        <item itemvalue="JUnit.All in sns-project" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9c029d16-b2ea-46af-9bdf-1baf4e3517ad" name="Changes" comment="" />
+      <created>1676187010362</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676187010362</updated>
+    </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1676187773602</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676187773602</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="회원가입과 로그인 기능" />
+    <option name="LAST_COMMIT_MESSAGE" value="회원가입과 로그인 기능" />
+  </component>
+</project>
